@@ -1,0 +1,10 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 9999px;
+    /* background:  */
+    /* linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(14,224,228,1) 35%, rgba(0,64,255,1) 100%); */
+    background: radial-gradient(circle, rgba(255,215,0,1) 0%, rgba(14,224,228,1) 71%, rgba(0,64,255,1) 100%);
+}
