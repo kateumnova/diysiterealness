@@ -32,14 +32,18 @@ body {
 
 .fixed-box {
     width: 500px;
-    height: 500px;
+    height: 300px;
     border: 2px dashed black;
     border-radius: 50px;
     position: fixed;
     /* background: blue; */
-    right: 200px;
-    top: 200px; 
-    align-content: center; 
+    /* right: 200px;
+    top: 200px;  */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    padding-top: 250px;
 
 }
 
