@@ -30,6 +30,19 @@ body {
     /* transition: border-radius ease-in 0.5s; */
 }
 
+.fixed-box {
+    width: 500px;
+    height: 500px;
+    border: 2px dashed black;
+    border-radius: 50px;
+    position: fixed;
+    /* background: blue; */
+    right: 200px;
+    top: 200px; 
+    align-content: center; 
+
+}
+
 .child-1 {
     left: 50px;
     top: 50px;
